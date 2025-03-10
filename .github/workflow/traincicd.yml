@@ -26,7 +26,7 @@ jobs:
       # Step 4: Install dependencies
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r requirement.txt
 
       # Step 5: Train the model
       - name: Train Model
